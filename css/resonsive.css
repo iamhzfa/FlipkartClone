@@ -1,0 +1,106 @@
+@media screen and (max-width: 800px){   
+    nav{
+        flex-direction: column;
+        height: 16vh;
+    }
+    .logo{
+        margin-top: 0.5vh;
+        margin-right: 0;
+    }
+    .log{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .log img{
+        width: 70px;
+        padding: 3px 0 1px 0;
+    }
+    .explore{
+        font-size: 0.6rem;
+    }
+    nav ul{
+        margin-left: 0;
+        height: 6vh;
+        padding-right: 7px;
+    }
+    nav ul li a button{
+        padding: 0.7vh 1.6vw;
+        font-size: 12px;
+    }
+    nav ul li a{
+        font-size: 13px;
+    }
+    nav ul li{
+        padding: 0 1.4rem;
+    }
+    .input{
+        height: 4vh;
+        width: 40vw;
+        margin-top: 1px;
+    }
+    .search-btn{
+        width: 2vh;
+        padding: 1vh;
+    }
+    .items{
+        height: 0;
+    }
+    .box{
+        height: 0;
+    }
+    .image{
+        height: 0;
+    }
+    .box a{
+        font-size: 0;
+    }
+    .front-img{
+        height: 20vh;
+    }
+    .front-img img{
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .front-img{
+        height: 15vh;
+        padding-left: 1.5vw;
+        margin: 2vh 0;
+    }
+    .front-img img{
+        height: 13vh;
+    }
+    .lines p{
+        font-size: 14px;
+    }
+    .column{
+        height: 250px;
+        width: 150px;
+    }
+    .flex-all-center{
+        height: 7vh;
+        font-size: 8px;
+    }
+    .links{
+        padding: 20px 15px 10px 20px;
+    }
+    .link-about{
+        font-size: 14px;
+    }
+    .link1{
+        padding: 0 5px;
+    }
+    .link1 a{
+        font-size: 12px;
+    }
+    .deals{
+        font-size: 14px;
+    }
+
+    .cards{
+        /* padding: 0; */
+        flex-flow: column;
+    }
+}
